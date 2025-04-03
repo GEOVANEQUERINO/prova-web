@@ -1,0 +1,45 @@
+* {
+    margin 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(192, 171, 212, 0.836);
+    margin-right: 200px;
+}
+
+header img {
+    width: 250px;    
+}
+
+.list ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 300px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.sessao-01 {
+    padding: 200px;
+    background-image: url(img/img-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
