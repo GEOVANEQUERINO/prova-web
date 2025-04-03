@@ -1,5 +1,5 @@
 * {
-    margin 0;
+    margin: 0;
     padding: 0;
     list-style: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -10,12 +10,13 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: rgba(192, 171, 212, 0.836);
-    margin-right: 200px;
+    background-color: black
+    
 }
 
 header img {
-    width: 250px;    
+    width: 100px;    
+    margin-left: 100px;
 }
 
 .list ul {
@@ -24,11 +25,16 @@ header img {
     gap: 15px;
 }
 
+.list ul li {
+    color: white;
+    font-size: 10px;
+}
+
 nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 300px;
+    gap: 600px;
 }
 
 main {
@@ -38,8 +44,77 @@ main {
 
 .sessao-01 {
     padding: 200px;
-    background-image: url(img/img-01.jpg);
+    background-image: url(img/imagem-0001.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+
+.sessao-01 h2 {
+    color: white;
+    font-size: 60px;
+    
+}
+
+.sessao-01 p{
+    color: white;
+    align-items: center;
+}
+
+.sessao-01 button {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.sessao-01 button:hover {
+    opacity: 1.0;
+    font-size: 20px;
+}
+
+.caixa-pai {
+    padding: 200px;
+    display: flex;
+    gap: 120px;
+    
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.caixa h6 {
+    margin-bottom: 10px;
+    align-content: end;
+}
+
+.caixa h3 {
+    font-size: 50px;
+}
+
+.caixa p{
+    font-size: 10px;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.caixa button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.caixa button:hover{
+    cursor: pointer;
+    transition: 0.8s;
+    font-size: 20px;
 }
